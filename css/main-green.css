@@ -873,6 +873,7 @@ body > footer .copyrights {
 }
 
 #fotoperfil:hover {
+  transform: rotate3d(15, 6, 4, -5deg);
   -webkit-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
   -o-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
