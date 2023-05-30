@@ -52,6 +52,16 @@ html {
   width: 100%;
 }
 
+#particles-js{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 body {
   position: relative;
   font-family: 'Roboto', Helvetica, sans-serif;
