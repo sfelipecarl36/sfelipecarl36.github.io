@@ -55,7 +55,7 @@ html {
 #particles-js{
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 99vh;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -360,6 +360,8 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 
 .btn-secondary:hover {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.3);
+  background-color: #ff8900;
+  color: #fff;
 }
 /* / buttons */
 
@@ -515,7 +517,7 @@ body > footer .copyrights {
   position: relative;
   background-color: #fff;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 30px;
   -webkit-box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
   box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
@@ -896,10 +898,10 @@ body > footer .copyrights {
 }
 
 .start-page-content .page-header .photo:hover {
-  -webkit-transform: translateY(-9px);
-  -ms-transform: translateY(-9px);
-  -o-transform: translateY(-9px);
-  transform: translateY(-9px);
+  -webkit-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+  transform: translateY(-7px);
   /*-webkit-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
   -o-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
@@ -945,6 +947,7 @@ body > footer .copyrights {
 }
 
 .start-page-content .social-links a:hover {
+  transform: scale(1.05);
   -webkit-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.2);
